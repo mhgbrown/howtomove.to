@@ -6,6 +6,7 @@ collections:
   guides:
     title: Guides
     output: true
+    in_nav: 1
   posts:
     title: Posts
     output: true
