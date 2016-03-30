@@ -15,6 +15,7 @@ collections:
   de:
     title: de
     output: true
+    permalink: "/guides/de"
 defaults:
 - scope:
     path: ''
