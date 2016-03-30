@@ -3,6 +3,9 @@ title: How To Move To
 url: http://howtomove.to
 timezone: UTC
 collections:
+  guides:
+    title: Guides
+    output: true
   posts:
     title: Posts
     output: true
