@@ -20,8 +20,14 @@
   <![endif]-->
 </head>
 
-<body class="{{ current.url | replace:'/',' ' | remove_first:' ' }}">
-  {{ content }}
+<body class="{{ page.url | replace:'/',' ' | remove_first:' ' }}">
+  <main role="main">
+    {% include header.html %}
+    <div class="primary-content">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+  </main>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="/scripts/js/min/jquery-2.2.0.js"><\/script>'); </script>
   <script src="/scripts/js/min/application.js"></script>

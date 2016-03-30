@@ -1,1 +1,41 @@
 @import "_base";
+
+html {
+  font-size: 18px;
+  font-family: "Georgia", serif;
+  color: #000;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
+}
+
+main {
+  max-width: 680px;
+  margin: 0 auto;
+}
+
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 2px solid black;
+}
+
+.primary-header nav ul {
+  @extend .clearfix;
+
+  li {
+    float: left;
+
+    a {
+      display: inline-block;
+      padding: 36px;
+      border-bottom: none;
+    }
+
+    &:first-child a {
+      padding-left: 0;
+    }
+  }
+}

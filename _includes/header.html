@@ -1,0 +1,11 @@
+<header class="primary-header">
+  <nav>
+    <ul class="list-inline">
+      {% for node in site.pages %}
+        {% if node.in_nav %}
+          <li><a href="{{node.url}}" {% if page.url == node.url %}class="is-current-page"{% endif %}>{{node.title}}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </nav>
+</header>
