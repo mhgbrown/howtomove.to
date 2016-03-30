@@ -3,7 +3,7 @@ title: How To Move To
 url: http://howtomove.to
 timezone: UTC
 collections:
-  from-the-united-states:
+  "-guides-us":
     title: From The United States
     output: true
   guides:
