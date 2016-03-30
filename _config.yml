@@ -6,9 +6,6 @@ collections:
   us:
     title: From The United States
     output: true
-  guides:
-    title: Guides
-    output: true
   posts:
     title: Posts
     output: true
